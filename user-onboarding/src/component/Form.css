@@ -1,0 +1,64 @@
+
+
+.app_Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+
+}
+
+.submit_Button{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    color: rgb(92, 80, 80);
+    justify-content: center;
+    border-radius: 25px;
+    width: 20%;
+    height: 20px;
+    background-color: bisque;
+}
+
+.form_Wrapper{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(75, 54, 29, 0.54);
+    width: 60%;
+    height: 70%;
+
+}
+
+.app_Wrapper h1{
+    font-family: fantasy;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+
+}
+
+.name_input{
+    width: 90px
+}
+
+.label_Wrapper{
+display: flex;
+justify-content: space-around;
+margin-top: 5%;
+align-content: center;
+}
+
+
+.Terms {
+    margin-top: 30px;
+    color: white;
+    text-decoration: underline;
+}
